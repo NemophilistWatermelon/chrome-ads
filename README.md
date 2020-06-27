@@ -18,4 +18,4 @@
 
 - 更新图片
 
-  ![images](https://github.com/Keviniswhite/ads/blob/master/version1.1.png)
+  ![images](https://github.com/Keviniswhite/ads/blob/master/version1.1.jpg)
