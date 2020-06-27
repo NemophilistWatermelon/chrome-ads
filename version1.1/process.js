@@ -130,6 +130,7 @@
                 for (var i = 0; i < len; i++) {
                     var selector = resultChange[i]
                     selector.style = ''
+                    selector.onclick = null
                 }
                 this.innerHTML = '再次点击还原'
                 click = true
