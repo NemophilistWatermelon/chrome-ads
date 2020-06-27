@@ -91,7 +91,7 @@
             var s = `
             <style>
                 #id-move-ads {
-                transform: translate(10px,19px);
+                transform: translate(10px,6px);
                 background-color: #4E6EF2;
                 height: 44px;
                 color: #fff;
@@ -107,14 +107,14 @@
              }
             </style>
         `
-            var t = `<button id="id-move-ads" title="插件提供与百度无关">还原</button>`
+            var t = `<button id="id-move-ads" title="插件提供与百度无关">移除广告覆盖样式</button>`
             var o = {
                 s,
                 t,
             }
             for (const key in o) {
                 log('o', o[key])
-                e(className).insertAdjacentHTML('beforeend', o[key])
+                e(className).innerHTML += o[key]
             }
         }
         return bindAction('#id-move-ads', ads)
@@ -131,6 +131,7 @@
                     var selector = resultChange[i]
                     selector.style = ''
                 }
+                this.innerHTML = '再次点击还原'
                 click = true
                 this.remove()
             }
