@@ -107,7 +107,7 @@
              }
             </style>
         `
-            var t = `<button id="id-move-ads" title="插件提供与百度无关">移除广告覆盖样式</button>`
+            var t = `<button id="id-move-ads" title="插件提供与百度无关">还原</button>`
             var o = {
                 s,
                 t,
@@ -131,7 +131,6 @@
                     var selector = resultChange[i]
                     selector.style = ''
                 }
-                this.innerHTML = '再次点击还原'
                 click = true
                 this.remove()
             }
