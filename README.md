@@ -1,9 +1,9 @@
 # ads
 过滤百度搜索页广告
 # 运行结果图
-![images](https://github.com/Keviniswhite/ads/blob/master/result.png)
+![images](https://github.com/NemophilistWatermelon/ads/blob/master/result.png)
 # 使用方式
-![images](https://github.com/Keviniswhite/ads/blob/master/used.png)
+![images](https://github.com/NemophilistWatermelon/ads/blob/master/used.png)
 
 # 版本更新墙：
 
@@ -18,4 +18,4 @@
 
 - 更新图片
 
-  ![images](https://github.com/Keviniswhite/ads/blob/master/version1.1.jpg)
+  ![images](https://github.com/NemophilistWatermelon/ads/blob/master/version1.1.jpg)
